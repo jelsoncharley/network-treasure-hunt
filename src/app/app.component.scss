@@ -1,0 +1,22 @@
+.bg {
+    // background-image: url(../assets/images/treasurehunt.jpg);
+     background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+}
+
+.fh {
+    height: 100%;
+}
+
+.tac {
+    text-align: center
+}
+
+.cardContainer {
+    position: relative;
+    width: 50%;
+    display: inline-block;
+    top: 37%;
+}
