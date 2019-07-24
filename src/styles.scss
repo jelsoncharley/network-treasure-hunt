@@ -2,3 +2,26 @@
 html, body {
   height: 100%;
 }
+
+.fh {
+    height: 100%;
+}
+
+.tac {
+    text-align: center
+}
+
+.fr {
+    float: right
+}
+
+.cl {
+    cursor: pointer;
+}
+
+.cardContainer {
+    position: relative;
+    width: 50%;
+    display: inline-block;
+    top: 37%;
+}
