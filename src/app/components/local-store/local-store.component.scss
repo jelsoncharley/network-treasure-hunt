@@ -1,0 +1,49 @@
+.questContainer {
+    width: 25%;
+    border: 1px solid;
+}
+.buttonContainer {
+    width: 75%;
+    position: absolute;
+
+}
+
+.bg {
+    background-image: url(../../../assets/images/think.jpg);
+     background-position: center center;
+      background-repeat: no-repeat;
+    //   background-attachment: fixed;
+      background-size: cover;
+}
+.questBG {
+    background-color: #fff;
+    opacity: 0.6;
+}
+
+.lsContainer {
+    margin: 10px;
+}
+
+.btn1Container {
+    position: absolute;
+    top: random(900) + px;
+    left: random(500) + px;
+}
+
+.btn2Container {
+    position: absolute;
+    top: random(900) + px;
+    left: random(500) + px;
+}
+
+.btn3Container {
+    position: absolute;
+    top: random(900) + px;
+    left: random(500) + px;
+}
+
+.question{
+    position: relative;
+    top:45%;
+    padding: 0px 10px
+}
