@@ -1,0 +1,29 @@
+.bg {
+    background-image: url(../../../assets/images/chessbg.jpg);
+     background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+}
+
+.code {
+    display: inline;
+    top: 10%;
+    position: absolute;
+}
+
+.chessImages {
+    top: 250px;
+    position: relative;
+}
+
+.link {
+        top: 100px;
+    position: relative;
+}
+
+.linkFont {
+        font-size: 32px;
+    font-family: monospace;
+    color: #f3dba3;
+}
