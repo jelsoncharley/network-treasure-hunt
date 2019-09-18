@@ -18,12 +18,32 @@
 }
 
 .link {
-        top: 100px;
+    top: 100px;
     position: relative;
 }
 
 .linkFont {
-        font-size: 32px;
+    font-size: 32px;
     font-family: monospace;
     color: #f3dba3;
+}
+
+.chessImage {
+width: 100%;
+  height: auto;
+    display: block;
+    top: 30%;
+    position: absolute;
+}
+
+.responsive {
+  
+    max-width: 500px;
+    left: 5%;
+}
+
+.responsivec {
+   margin-left: 50px;
+    max-width: 550px;
+    right: 5%;
 }

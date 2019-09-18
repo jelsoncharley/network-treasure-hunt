@@ -20,9 +20,9 @@ const routes: Routes = [
   { path: 'doyoulikechess', component: ChessComponent },
   { path: 'waterwaystransportation', component: DockyardComponent },
   { path: 'findmeinanotherstore', component: SessionStoreComponent },
+  { path: 'capturethosepackets', component: WireSharkComponent },
   { path: 'onlineoffline', component: NetWorkComponent },
   { path: 'buggyreptile', component: BugSnakeComponent },
-  { path: 'capturethosepackets', component: WireSharkComponent },
   { path: 'heartofyourcodestorage', component: RepositoryComponent }
 ];
 

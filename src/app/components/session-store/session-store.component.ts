@@ -10,6 +10,7 @@ export class SessionStoreComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    sessionStorage.setItem("yetAnotherTreasureLink", "/capturethosepackets")
   }
 
 }
