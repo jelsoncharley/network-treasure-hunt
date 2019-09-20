@@ -1,0 +1,31 @@
+.bg {
+    background-image: url(../../../assets/images/old-page-texture-2-original.png);
+     background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+}
+
+.repository {
+        float: right;
+    // height: 948px;
+        height: 97%;
+        // width: 700px;
+        width: 36%;
+        right: 9%;
+    position: absolute;
+    margin: 12px;
+}
+.repoLink {
+        width: auto;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    float: left;
+    position: absolute;
+}
+
+.clue {
+        position: absolute;
+    top: 50%;
+    left: 12%
+}

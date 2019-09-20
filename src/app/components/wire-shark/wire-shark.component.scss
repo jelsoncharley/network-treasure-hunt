@@ -6,16 +6,32 @@
       background-size: cover;
 }
 
-.monitorText {
-    position: absolute;
+
+.emailText {
     color: darkturquoise;
+}
+.monitorText {
+    position: relative;
+    width: 440px;
+    margin: auto;
     top: 70%
 }
 
 @media only screen and (max-width: 1366px) {
   .monitorText {
-    position: absolute;
-    color: darkturquoise;
+    position: relative;
+    width: 310px;
+    margin: auto;
     top: 67%
   }
+
+  .answerMail {
+      bottom: 12% !important;
+  }
+}
+
+.answerMail {
+        bottom: 5%;
+    position: absolute;
+    right: 10%;
 }

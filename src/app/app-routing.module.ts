@@ -21,9 +21,9 @@ const routes: Routes = [
   { path: 'waterwaystransportation', component: DockyardComponent },
   { path: 'findmeinanotherstore', component: SessionStoreComponent },
   { path: 'capturethosepackets', component: WireSharkComponent },
-  { path: 'onlineoffline', component: NetWorkComponent },
-  { path: 'buggyreptile', component: BugSnakeComponent },
-  { path: 'heartofyourcodestorage', component: RepositoryComponent }
+  { path: 'sec558', component: RepositoryComponent },
+  { path: 'CatchupParse', component: NetWorkComponent },
+  { path: '192.169.198.199', component: BugSnakeComponent }
 ];
 
 @NgModule({

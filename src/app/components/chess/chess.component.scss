@@ -47,3 +47,18 @@ width: 100%;
     max-width: 550px;
     right: 5%;
 }
+
+.futureClue {
+        display: block;
+    bottom: 10%;
+    position: absolute;
+    width: 100%;
+        font-family: webdings;
+        font-size: xx-large;
+}
+
+@media only screen and (max-width: 1366px) {
+  .futureClue {
+    font-size: x-large;
+  }
+}
