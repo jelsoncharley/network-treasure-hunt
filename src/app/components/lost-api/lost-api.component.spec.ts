@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NetWorkComponent } from './net-work.component';
+import { LostApiComponent } from './lost-api.component';
 
-describe('NetWorkComponent', () => {
-  let component: NetWorkComponent;
-  let fixture: ComponentFixture<NetWorkComponent>;
+describe('LostApiComponent', () => {
+  let component: LostApiComponent;
+  let fixture: ComponentFixture<LostApiComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NetWorkComponent ]
+      declarations: [ LostApiComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NetWorkComponent);
+    fixture = TestBed.createComponent(LostApiComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

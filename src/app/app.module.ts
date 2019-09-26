@@ -10,10 +10,12 @@ import { HtmlEndComponent } from './components/html-end/html-end.component';
 import { ChessComponent } from './components/chess/chess.component';
 import { DockyardComponent } from './components/dockyard/dockyard.component';
 import { SessionStoreComponent } from './components/session-store/session-store.component';
-import { NetWorkComponent } from './components/net-work/net-work.component';
-import { BugSnakeComponent } from './components/bug-snake/bug-snake.component';
 import { WireSharkComponent } from './components/wire-shark/wire-shark.component';
 import { RepositoryComponent } from './components/repository/repository.component';
+import { IpDecemberComponent } from './components/ip-december/ip-december.component';
+import { WorkNetComponent } from './components/work-net/work-net.component';
+import { LostApiComponent } from './components/lost-api/lost-api.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -25,14 +27,16 @@ import { RepositoryComponent } from './components/repository/repository.componen
     ChessComponent,
     DockyardComponent,
     SessionStoreComponent,
-    NetWorkComponent,
-    BugSnakeComponent,
     WireSharkComponent,
-    RepositoryComponent
+    RepositoryComponent,
+    IpDecemberComponent,
+    WorkNetComponent,
+    LostApiComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

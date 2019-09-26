@@ -1,0 +1,44 @@
+.bg {
+    background-image: url(../../../assets/images/worknet.jpg);
+     background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+}
+
+.questions {
+    height:100%;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    position: absolute;
+    font-family: monospace;
+    font-size: 22px;
+}
+
+.vxlan {
+    top: 17%;
+    left: 14%;
+    position: relative;
+}
+
+.ip {
+        bottom: 10%;
+    position: absolute;
+}
+
+.vmware {
+        top: 53%;
+    right: 15%;
+    position: relative;
+}
+
+.aws {
+        position: relative;
+    top: 60%;
+    left: 18%;
+}
+
+.kafka {
+        top: 10%;
+    position: relative
+}

@@ -40,12 +40,18 @@ width: 100%;
   
     max-width: 500px;
     left: 5%;
+    border-width: thick;
+    border-style: groove;
+    border-color: dimgray;
 }
 
 .responsivec {
    margin-left: 50px;
     max-width: 550px;
     right: 5%;
+    border-width: thick;
+    border-style: groove;
+    border-color: lightgray;
 }
 
 .futureClue {
@@ -60,5 +66,13 @@ width: 100%;
 @media only screen and (max-width: 1366px) {
   .futureClue {
     font-size: x-large;
+    // bottom: 5%;
+  }
+}
+
+@media only screen and (max-height: 768px) {
+  .futureClue {
+    font-size: x-large;
+    bottom: 5%;
   }
 }

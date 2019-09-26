@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BugSnakeComponent } from './bug-snake.component';
+import { IpDecemberComponent } from './ip-december.component';
 
-describe('BugSnakeComponent', () => {
-  let component: BugSnakeComponent;
-  let fixture: ComponentFixture<BugSnakeComponent>;
+describe('IpDecemberComponent', () => {
+  let component: IpDecemberComponent;
+  let fixture: ComponentFixture<IpDecemberComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BugSnakeComponent ]
+      declarations: [ IpDecemberComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BugSnakeComponent);
+    fixture = TestBed.createComponent(IpDecemberComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

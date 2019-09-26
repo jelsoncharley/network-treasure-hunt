@@ -1,0 +1,55 @@
+.bg {
+    background-image: url(../../../assets/images/code.jpg);
+     background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+}
+
+.number {
+        font-family: serif;
+    font-size: xx-large;
+}
+
+.noisrevnoc {
+position: relative;
+top: 36%;
+    font-size: 26px;
+    font-family: cursive;
+}
+
+@media only screen and (max-width: 1366px) {
+  .noisrevnoc {
+    font-size: 10px;
+  }
+
+}
+
+.router {
+        float: right;
+    position: relative;
+    right: 20%;
+}
+
+.wlan {
+        position: absolute;
+    left: 20%;
+    top: 40%;
+}
+
+.server {
+        position: absolute;
+    top: 10%;
+}
+
+.hub {
+        position: absolute;
+    top: 70%;
+    left: 30%;
+}
+
+.switch {
+        position: absolute;
+    top: 70%;
+    left: 60%;
+}
