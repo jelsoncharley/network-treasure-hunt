@@ -16,4 +16,8 @@ export class RulesComponent implements OnInit {
   goToHomePage() {
     this.router.navigate(['home'])
   }
+
+  proceed() {
+    console.log("Next")
+  }
 }

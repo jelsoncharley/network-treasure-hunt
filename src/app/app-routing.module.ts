@@ -20,7 +20,7 @@ const routes: Routes = [
   { path: 'stylingandbeauty', component: HtmlEndComponent },
   { path: 'doyoulikechess', component: ChessComponent },
   { path: 'waterwaystransportation', component: DockyardComponent },
-  { path: 'findmeinanotherstore', component: SessionStoreComponent },
+  { path: 'rolldice', component: SessionStoreComponent },
   { path: 'capturethosepackets', component: WireSharkComponent },
   { path: 'sec558', component: RepositoryComponent },
   { path: 'CatchupParse', component: IpDecemberComponent },
@@ -30,7 +30,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
