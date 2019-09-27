@@ -12,6 +12,7 @@ import { RepositoryComponent } from './components/repository/repository.componen
 import { IpDecemberComponent } from './components/ip-december/ip-december.component';
 import { WorkNetComponent } from './components/work-net/work-net.component';
 import { LostApiComponent } from './components/lost-api/lost-api.component';
+import { EndGameComponent } from './components/end-game/end-game.component';
 
 const routes: Routes = [
   { path: 'rules', component: RulesComponent },
@@ -26,7 +27,7 @@ const routes: Routes = [
   { path: 'CatchupParse', component: IpDecemberComponent },
   { path: '192.169.198.199', component: LostApiComponent },
   { path: 'schwarzenegger', component: WorkNetComponent },
-  { path: '9688', component: IpDecemberComponent }
+  { path: '9688', component: EndGameComponent }
 ];
 
 @NgModule({

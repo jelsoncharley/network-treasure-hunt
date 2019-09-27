@@ -1,15 +1,14 @@
 .bg {
     background-image: url(../../../assets/images/worknet.jpg);
-     background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .questions {
     height:100%;
-    width: -webkit-fill-available;
-    width: -moz-available;
+    width: calc(100%);
     position: absolute;
     font-family: monospace;
     font-size: 22px;
@@ -22,23 +21,23 @@
 }
 
 .ip {
-        bottom: 10%;
+    bottom: 10%;
     position: absolute;
 }
 
 .vmware {
-        top: 53%;
+    top: 53%;
     right: 15%;
     position: relative;
 }
 
 .aws {
-        position: relative;
+    position: relative;
     top: 60%;
     left: 18%;
 }
 
 .kafka {
-        top: 10%;
+    top: 10%;
     position: relative
 }

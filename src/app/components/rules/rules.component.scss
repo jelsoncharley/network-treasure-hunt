@@ -1,10 +1,9 @@
 .bg {
     background-image: url(../../../assets/images/treasurehunt.jpg);
-     background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-    //   opacity: 0.1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .cover {
@@ -15,15 +14,9 @@
 }
 
 .proceed {
-    position: absolute;
-    top: 92%;
-    right: 20%;
-}
-
-.myButton {
-    position: absolute;
-    top: 89%;
-    right: 4%;
+  position: absolute;
+  top: 89%;
+  right: 4%;
 	background-color:#ebc984;
 	-moz-border-radius:10px;
 	-webkit-border-radius:10px;
@@ -38,34 +31,23 @@
 	text-decoration:none;
 	text-shadow:0px 0px 0px #000000;
 }
-.myButton:hover {
+.proceed:hover {
 	background-color:#e69a57;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
 }
 
 @media only screen and (max-width: 1366px) {
-  .myButton {
+  .proceed {
     width:250px;
     right: 6%;
     top:84%
   }
 }
 
-.rule {
-    height: 50%;
-    display: inline-block;
-    // float: left;
-    width: 25%;
-}
-
 .ruleContainer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* fraction*/
-      top: 20%;
-    position: relative;
+  grid-template-columns: 1fr 1fr 1fr; 
+  top: 20%;
+  position: relative;
 }
 
 .ruleContainer > div {
@@ -73,10 +55,6 @@
   padding: 0px 22px
 }
 
-.ruleTable {
-        width: -webkit-fill-available;
-        width: -moz-available;
-    top: 20%;
-    position: absolute;
-    background: bisque
+.points {
+  text-align: justify !important;
 }

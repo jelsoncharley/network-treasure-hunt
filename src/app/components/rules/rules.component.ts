@@ -13,11 +13,8 @@ export class RulesComponent implements OnInit {
   ngOnInit() {
   }
 
-  goToHomePage() {
-    this.router.navigate(['home'])
-  }
-
   proceed() {
     console.log("Next")
+    this.router.navigate(['home'])
   }
 }

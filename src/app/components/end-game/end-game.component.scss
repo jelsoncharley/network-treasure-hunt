@@ -1,0 +1,27 @@
+.bg {
+    background-image: url(../../../assets/images/end-game.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.eureka {
+    color: bisque;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.descContainer {
+    bottom: 3%;
+    position: absolute;
+    width: calc(100%);
+
+}
+
+.desc {
+    font-family: 'Indie Flower', cursive;
+    color: #643721;
+    font-size: 25px;
+    -webkit-text-stroke: medium;
+}
