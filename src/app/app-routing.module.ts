@@ -16,18 +16,19 @@ import { EndGameComponent } from './components/end-game/end-game.component';
 
 const routes: Routes = [
   { path: 'rules', component: RulesComponent },
-  { path: 'home', component: HomeComponent },
-  { path: 'findmeinthestore', component: LocalStoreComponent },
-  { path: 'stylingandbeauty', component: HtmlEndComponent },
-  { path: 'doyoulikechess', component: ChessComponent },
-  { path: 'waterwaystransportation', component: DockyardComponent },
   { path: 'rolldice', component: SessionStoreComponent },
+  { path: 'findmeinthestore', component: LocalStoreComponent },
+  { path: 'CatchupParse', component: IpDecemberComponent },
+  { path: 'doyoulikechess', component: ChessComponent },
+  { path: '9688', component: EndGameComponent },
   { path: 'capturethosepackets', component: WireSharkComponent },
   { path: 'sec558', component: RepositoryComponent },
-  { path: 'CatchupParse', component: IpDecemberComponent },
-  { path: '192.169.198.199', component: LostApiComponent },
+  { path: 'stylingandbeauty', component: HtmlEndComponent },
   { path: 'schwarzenegger', component: WorkNetComponent },
-  { path: '9688', component: EndGameComponent }
+  { path: 'home', component: HomeComponent },
+  { path: '192.169.198.199', component: LostApiComponent },
+  { path: 'waterwaystransportation', component: DockyardComponent },
+
 ];
 
 @NgModule({
