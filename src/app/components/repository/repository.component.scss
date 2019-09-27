@@ -7,17 +7,15 @@
 }
 
 .repository {
-        float: right;
-    // height: 948px;
-        height: 97%;
-        // width: 700px;
-        width: 36%;
-        right: 9%;
+    float: right;
+    height: 97%;
+    width: 36%;
+    right: 9%;
     position: absolute;
     margin: 12px;
 }
 .repoLink {
-        width: auto;
+    width: auto;
     writing-mode: vertical-rl;
     text-orientation: upright;
     float: left;
@@ -25,7 +23,7 @@
 }
 
 .clue {
-        position: absolute;
+    position: absolute;
     top: 50%;
     left: 12%
 }

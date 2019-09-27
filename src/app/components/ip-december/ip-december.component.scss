@@ -1,19 +1,19 @@
 .bg {
     background-image: url(../../../assets/images/code.jpg);
-     background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .number {
-        font-family: serif;
+    font-family: serif;
     font-size: xx-large;
 }
 
 .noisrevnoc {
-position: relative;
-top: 36%;
+    position: relative;
+    top: 36%;
     font-size: 26px;
     font-family: cursive;
 }
@@ -26,24 +26,24 @@ top: 36%;
 }
 
 .router {
-        float: right;
+    float: right;
     position: relative;
     right: 20%;
 }
 
 .wlan {
-        position: absolute;
+    position: absolute;
     left: 20%;
     top: 40%;
 }
 
 .server {
-        position: absolute;
+    position: absolute;
     top: 10%;
 }
 
 .hub {
-        position: absolute;
+    position: absolute;
     top: 70%;
     left: 30%;
 }

@@ -10,7 +10,6 @@ export class LocalStoreComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    localStorage.setItem('treasureLink', 'http://localhost:4200/stylingandbeauty')
+    localStorage.setItem('treasureLink', '/stylingandbeauty')
   }
-
 }
