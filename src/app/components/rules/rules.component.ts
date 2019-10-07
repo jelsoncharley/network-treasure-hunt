@@ -10,11 +10,23 @@ export class RulesComponent implements OnInit {
 
   constructor(private router: Router) { }
 
+  count: number = 0;
+
   ngOnInit() {
   }
 
   proceed() {
-    console.log("Next")
     this.router.navigate(['home'])
+  }
+
+  giveHint() {
+    this.count++
+    if (this.count >= 30 && this.count <= 40) {
+      console.log("Try inspecting the element")
+    }
+    if (this.count >= 50) {
+      console.log("A div is covering the button! Remove it some how.")
+    }
+    console.log(this.count)
   }
 }
