@@ -41,3 +41,36 @@
     top: 10%;
     position: relative
 }
+
+@media only screen and (max-width: 1875px) {
+
+    .questions {
+
+        font-size: 19px;
+    }
+    .vxlan {
+        top: 21%;
+    left: 5%;
+    }
+
+    .kafka {
+        top: 5%;
+    right: 34%;
+    position: absolute;
+    }
+
+    .vmware {
+            top: 52%;
+    right: 23%;
+    }
+
+    .ip {
+            bottom: 14%;
+    right: 27%;
+    }
+
+    .aws {
+            top: 60%;
+    left: 0%;
+    }
+}

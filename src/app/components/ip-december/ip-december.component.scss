@@ -18,11 +18,18 @@
     font-family: cursive;
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1660px) {
   .noisrevnoc {
-    font-size: 10px;
+    font-size: 20px;
   }
 
+  .server {
+    top: 3% !important;
+  }
+
+  .router {
+      right: 10% !important;
+  }
 }
 
 .router {
@@ -39,13 +46,13 @@
 
 .server {
     position: absolute;
-    top: 10%;
+    top: 4%;
 }
 
 .hub {
     position: absolute;
-    top: 70%;
-    left: 30%;
+        bottom: 3%;
+    left: 39%;
 }
 
 .switch {

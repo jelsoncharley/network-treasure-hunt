@@ -27,6 +27,6 @@ export class RulesComponent implements OnInit {
     if (this.count >= 50) {
       console.log("A div is covering the button! Remove it some how.")
     }
-    console.log(this.count)
+    console.log(50 - this.count)
   }
 }
