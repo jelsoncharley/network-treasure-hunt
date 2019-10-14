@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as CryptoJS from 'crypto-js'
 
 @Component({
   selector: 'app-home',

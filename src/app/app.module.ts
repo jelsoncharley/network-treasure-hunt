@@ -17,6 +17,7 @@ import { WorkNetComponent } from './components/work-net/work-net.component';
 import { LostApiComponent } from './components/lost-api/lost-api.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { EndGameComponent } from './components/end-game/end-game.component';
+import { PreventRightDirective } from './directives/prevent-right.directive';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { EndGameComponent } from './components/end-game/end-game.component';
     IpDecemberComponent,
     WorkNetComponent,
     LostApiComponent,
-    EndGameComponent
+    EndGameComponent,
+    PreventRightDirective
   ],
   imports: [
     BrowserModule,
